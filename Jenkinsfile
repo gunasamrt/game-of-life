@@ -70,7 +70,7 @@ post {
             archiveArtifacts 'gameoflife-web/target/*.war'
         }
        failure {
-           mail to:"raknas000@gmail.com", subject:"FAILURE: ${currentBuild.fullDisplayName}", body: "Build failed"
+           mail to:"venky540cse@gmail.com", subject:"FAILURE: ${currentBuild.fullDisplayName}", body: "Build failed"
         }
     }       
 }
